@@ -18,6 +18,12 @@ document.getElementById('yesBtn').addEventListener('click', function() {
     });
 });
 
+
+const container = document.getElementById("fireworks-container");
+tsParticles.fireworks(container, {
+    colors: ["#ffafcc", "#ffb5d0", "#ff4d6d"]
+});
+
 document.getElementById('noBtn').addEventListener('click', function() {
     window.location.href = 'comfort.html';
 });
