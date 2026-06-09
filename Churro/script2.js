@@ -1,0 +1,1 @@
+btnContainer.innerHTML = '<button onclick="window.location.href=\'index.html\'">Thank you!</button>';

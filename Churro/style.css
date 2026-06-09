@@ -1,0 +1,40 @@
+body { 
+   display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 60vh; 
+    margin: 60px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #fff0f3;
+}
+
+#mainGif { 
+    width: 250px; 
+    border-radius: 20px; 
+    margin-bottom: 5px;
+}
+
+h1 { color: #d00000; font-size: 2.5rem; }
+
+button { 
+    padding: 15px 40px; 
+    margin: 10px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 50px; 
+    font-weight: bold;
+      color: rgb(204, 72, 72);
+      background-color: #ffccd5;
+      font-size: large;
+}
+#bottomGif { 
+    width: 150px; 
+    border-radius: 15px; 
+    margin-top: auto; 
+}
+
+#yesBtn { background-color: #ff4d6d; color: white; }
+#noBtn { background-color: #ffccd5; color: #d00000; }
+#ofcourseBtn { background-color: #df8f8f; color: #680000; }
